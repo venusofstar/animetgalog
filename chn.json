@@ -1,0 +1,189 @@
+[
+  {
+    "type": "The King dom",
+    "name": "Untold 2025 (HLS)",
+    "logo": "https://m.media-amazon.com/images/M/MV5BNDAwYmVkYzctMTRjZC00NGQ1LTk3YzAtOTAxMGRiNDNlMmVhXkEyXkFqcGc@._V1_.jpg",
+    "category": "Philippines Movies",
+    "stream": {
+      "type": "hls",
+      "url": "https://movies.honortvph.qzz.io/thekingdom/vod.m3u8"
+    }
+  },
+  {
+    "type": "movie",
+    "name": "Untold 2025 (MP4)",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Untold_movie_2025.jpeg/250px-Untold_movie_2025.jpeg",
+    "category": "Philippines Movies",
+    "stream": {
+      "type": "mp4",
+      "url": "https://gghjk.com/vod/1.mp4"
+    }
+  },
+  {
+    "type": "movie",
+    "name": "Hindi pa tapos Ang laban",
+    "logo": "https://img.youtube.com/vi/KTKxC9LWpVo/hqdefault.jpg",
+    "category": "FPJ MOVIES",
+    "stream": {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=KTKxC9LWpVo"
+    }
+  },
+  {
+    "type": "movie",
+    "name": "Kapag Puno Ang salop",
+    "logo": "https://img.youtube.com/vi/IX8jEcKYcJk/hqdefault.jpg",
+    "category": "FPJ MOVIES",
+    "stream": {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=IX8jEcKYcJk"
+    }
+  },
+  {
+    "type": "movie",
+    "name": "Dito sa Pitong Gatang",
+    "logo": "https://img.youtube.com/vi/2Sw1gZZR4hY/hqdefault.jpg",
+    "category": "FPJ MOVIES",
+    "stream": {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=2Sw1gZZR4hY"
+    }
+  },
+  {
+    "type": "movie",
+    "name": "Batang Quiapo",
+    "logo": "https://img.youtube.com/vi/vIC_nZzGdNk/hqdefault.jpg",
+    "category": "FPJ MOVIES",
+    "stream": {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=vIC_nZzGdNk"
+    }
+  },
+  {
+    "type": "movie",
+    "name": "Walang Matigas Na Tinapay' Sa Mainit Na Kape",
+    "logo": "https://img.youtube.com/vi/kHsBYLpgvPE/hqdefault.jpg",
+    "category": "FPJ MOVIES",
+    "stream": {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=kHsBYLpgvPE"
+    }
+  },
+  {
+    "type": "movie",
+    "name": "Ikaw Ang Mahal Ko",
+    "logo": "https://img.youtube.com/vi/3IaxBSZyMiY/hqdefault.jpg",
+    "category": "FPJ MOVIES",
+    "stream": {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=3IaxBSZyMiY"
+    }
+  },
+  {
+    "type": "movie",
+    "name": "Eseng Ng Tondo",
+    "logo": "https://img.youtube.com/vi/3AU4CMFZIhQ/hqdefault.jpg",
+    "category": "FPJ MOVIES",
+    "stream": {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=3AU4CMFZIhQ"
+    }
+  },
+  {
+    "type": "movie",
+    "name": "Pakners",
+    "logo": "https://img.youtube.com/vi/4YntEI0ZadI/hqdefault.jpg",
+    "category": "FPJ MOVIES",
+    "stream": {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=4YntEI0ZadI"
+    }
+  },
+  {
+    "type": "movie",
+    "name": "Muslim",
+    "logo": "https://img.youtube.com/vi/fIG8Khx7nY8/hqdefault.jpg",
+    "category": "FPJ MOVIES",
+    "stream": {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=fIG8Khx7nY8"
+    }
+  },
+  {
+    "type": "movie",
+    "name": "Lakay",
+    "logo": "https://img.youtube.com/vi/_CuqG_bLByc/hqdefault.jpg",
+    "category": "FPJ MOVIES",
+    "stream": {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=_CuqG_bLByc"
+    }
+  },
+  {
+    "type": "movie",
+    "name": "Epimaco Vilasco NBI",
+    "logo": "https://img.youtube.com/vi/p1j_faAxEAU/hqdefault.jpg",
+    "category": "FPJ MOVIES",
+    "stream": {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=p1j_faAxEAU"
+    }
+  
+  },
+  {
+    "type": "series",
+    "name": "Sample Series 1",
+    "logo": "https://via.placeholder.com/300x450?text=SERIES+1",
+    "category": "Series",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "title": "Episode 1",
+            "type": "hls",
+            "url": "https://example.com/ep1.m3u8"
+          },
+          {
+            "title": "Episode 2",
+            "type": "mp4",
+            "url": "https://example.com/ep2.mp4"
+          },
+          {
+            "title": "Episode 3",
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=GE-vkTDBcCs"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "series",
+    "name": "Sample Series 2",
+    "logo": "https://via.placeholder.com/300x450?text=SERIES+2",
+    "category": "Series",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "title": "Episode 1",
+            "type": "hls",
+            "url": "https://example.com/ep1.m3u8"
+          },
+          {
+            "title": "Episode 2",
+            "type": "mp4",
+            "url": "https://example.com/ep2.mp4"
+          },
+          {
+            "title": "Episode 3",
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=GE-vkTDBcCs"
+          }
+        ]
+      }
+    ]
+  }
+]
