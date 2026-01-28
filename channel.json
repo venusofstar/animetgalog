@@ -1,0 +1,40 @@
+[
+  {
+    "type": "movie",
+    "name": "Untold 2025",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Untold_movie_2025.jpeg/250px-Untold_movie_2025.jpeg",
+    "category": "Movies",
+    "stream": {
+      "type": "mp4",
+      "url": "https://gghjk.com/vod/1.mp4"
+    }
+  },
+  {
+    "type": "series",
+    "name": "Sample Series",
+    "logo": "https://via.placeholder.com/300x450?text=SERIES",
+    "category": "Series",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "title": "Episode 1",
+            "type": "hls",
+            "url": "https://example.com/ep1.m3u8"
+          },
+          {
+            "title": "Episode 2",
+            "type": "mp4",
+            "url": "https://example.com/ep2.mp4"
+          },
+          {
+            "title": "Episode 3",
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=GE-vkTDBcCs"
+          }
+        ]
+      }
+    ]
+  }
+]
