@@ -1,16 +1,28 @@
 [
-  {
-    "type": "movie",
-    "name": "Untold 2025",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Untold_movie_2025.jpeg/250px-Untold_movie_2025.jpeg",
-    "category": "Movies",
-    "stream": {
-      "type": "mp4",
-      "url": "https://gghjk.com/vod/1.mp4"
-    }
+       {
+        name: 'Untold 2025',
+        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Untold_movie_2025.jpeg/250px-Untold_movie_2025.jpeg',
+        type: 'hls',
+        manifestUri: 'https://tevh.9ljp.com/vod/1/2025/08/01/bd4120b363da/index5.m3u8?wsSecret=6e520070865cdb80edac26888b4fb7d9&wsTime=688e0ebd',
+        category: "Philippines Movies"
   },
   {
-    "type": "series",
+        name: 'Untold 2025',
+        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Untold_movie_2025.jpeg/250px-Untold_movie_2025.jpeg',
+        type: 'hls',
+        manifestUri: 'https://gghjk.com/vod/1.mp4',
+        category: "Philippines Movies"
+  },
+  {
+    name:"Shake Rattle and Roll 15 2014",
+    logo:"https://img.youtube.com/vi/GE-vkTDBcCs/hqdefault.jpg",
+    type:"youtube",
+    manifestUri:"https://www.youtube.com/watch?v=GE-vkTDBcCs",
+    category:"Horror"
+  }
+  },
+  {
+    "type": "series1",
     "name": "Sample Series",
     "logo": "https://via.placeholder.com/300x450?text=SERIES",
     "category": "Series",
@@ -33,6 +45,31 @@
             "type": "youtube",
             "url": "https://www.youtube.com/watch?v=GE-vkTDBcCs"
           }
+            },
+  {
+    "type": "series2",
+    "name": "Sample Series",
+    "logo": "https://via.placeholder.com/300x450?text=SERIES",
+    "category": "Series",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "title": "Episode 1",
+            "type": "hls",
+            "url": "https://example.com/ep1.m3u8"
+          },
+          {
+            "title": "Episode 2",
+            "type": "mp4",
+            "url": "https://example.com/ep2.mp4"
+          },
+          {
+            "title": "Episode 3",
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=GE-vkTDBcCs"
+      }
         ]
       }
     ]
