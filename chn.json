@@ -1,30 +1,38 @@
 [
-       {
-        name: 'Untold 2025',
-        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Untold_movie_2025.jpeg/250px-Untold_movie_2025.jpeg',
-        type: 'hls',
-        manifestUri: 'https://tevh.9ljp.com/vod/1/2025/08/01/bd4120b363da/index5.m3u8?wsSecret=6e520070865cdb80edac26888b4fb7d9&wsTime=688e0ebd',
-        category: "Philippines Movies"
+  {
+    "type": "movie",
+    "name": "Untold 2025 (HLS)",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Untold_movie_2025.jpeg/250px-Untold_movie_2025.jpeg",
+    "category": "Philippines Movies",
+    "stream": {
+      "type": "hls",
+      "url": "https://tevh.9ljp.com/vod/1/2025/08/01/bd4120b363da/index5.m3u8?wsSecret=6e520070865cdb80edac26888b4fb7d9&wsTime=688e0ebd"
+    }
   },
   {
-        name: 'Untold 2025',
-        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Untold_movie_2025.jpeg/250px-Untold_movie_2025.jpeg',
-        type: 'hls',
-        manifestUri: 'https://gghjk.com/vod/1.mp4',
-        category: "Philippines Movies"
+    "type": "movie",
+    "name": "Untold 2025 (MP4)",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Untold_movie_2025.jpeg/250px-Untold_movie_2025.jpeg",
+    "category": "Philippines Movies",
+    "stream": {
+      "type": "mp4",
+      "url": "https://gghjk.com/vod/1.mp4"
+    }
   },
   {
-    name:"Shake Rattle and Roll 15 2014",
-    logo:"https://img.youtube.com/vi/GE-vkTDBcCs/hqdefault.jpg",
-    type:"youtube",
-    manifestUri:"https://www.youtube.com/watch?v=GE-vkTDBcCs",
-    category:"Horror"
-  }
+    "type": "movie",
+    "name": "Shake Rattle and Roll 15 (2014)",
+    "logo": "https://img.youtube.com/vi/GE-vkTDBcCs/hqdefault.jpg",
+    "category": "Horror",
+    "stream": {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=GE-vkTDBcCs"
+    }
   },
   {
-    "type": "series1",
-    "name": "Sample Series",
-    "logo": "https://via.placeholder.com/300x450?text=SERIES",
+    "type": "series",
+    "name": "Sample Series 1",
+    "logo": "https://via.placeholder.com/300x450?text=SERIES+1",
     "category": "Series",
     "seasons": [
       {
@@ -45,11 +53,14 @@
             "type": "youtube",
             "url": "https://www.youtube.com/watch?v=GE-vkTDBcCs"
           }
-            },
+        ]
+      }
+    ]
+  },
   {
-    "type": "series2",
-    "name": "Sample Series",
-    "logo": "https://via.placeholder.com/300x450?text=SERIES",
+    "type": "series",
+    "name": "Sample Series 2",
+    "logo": "https://via.placeholder.com/300x450?text=SERIES+2",
     "category": "Series",
     "seasons": [
       {
@@ -69,7 +80,7 @@
             "title": "Episode 3",
             "type": "youtube",
             "url": "https://www.youtube.com/watch?v=GE-vkTDBcCs"
-      }
+          }
         ]
       }
     ]
