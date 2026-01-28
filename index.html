@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IPTV Player</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/shaka-player@4.3.5/dist/shaka-player.compiled.js"></script>
+</head>
+<body>
+
+<div id="channelSections"></div>
+
+<!-- Episode selector -->
+<div id="episodeContainer">
+  <div id="episodeList"></div>
+  <button class="closeBtn" onclick="closeEpisodes()">✕</button>
+</div>
+
+<!-- Video player -->
+<div id="videoContainer">
+  <video id="videoPlayer" controls autoplay playsinline></video>
+  <iframe id="ytFrame" allow="autoplay" allowfullscreen></iframe>
+  <button class="closeBtn" onclick="closeVideo()">✕</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
