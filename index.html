@@ -3,42 +3,73 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MAFLIX</title>
-
-<link rel="stylesheet" href="style.css">
-<script src="https://cdn.jsdelivr.net/npm/shaka-player@4.3.5/dist/shaka-player.compiled.js"></script>
+<title>Anime Tagalog</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 <style>
-  /* Simple styling for the title */
-  #siteTitle {
-    text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 20px 0;
-    color: #ff0000; /* You can change this color */
-    font-family: Arial, sans-serif;
-  }
+  * { margin:0; padding:0; box-sizing:border-box; font-family:'Roboto',sans-serif; }
+  body { background:#121212; color:#fff; }
+  header { background:#1f1f1f; padding:20px; text-align:center; font-size:2rem; color:#ff4081; }
+  main { padding:20px; max-width:1200px; margin:0 auto; }
+  .series-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(150px, 1fr)); gap:20px; }
+  .series-card { background:#1f1f1f; border-radius:10px; overflow:hidden; cursor:pointer; transition: transform 0.2s; text-align:center; }
+  .series-card img { width:100%; display:block; }
+  .series-card h3 { padding:10px; font-size:1rem; color:#fff; }
+  .series-card:hover { transform: scale(1.05); }
+  footer { text-align:center; padding:20px; color:#aaa; font-size:0.9rem; }
 </style>
 </head>
 <body>
 
-<!-- Visible website title -->
-<h1 id="siteTitle">MAFLIX</h1>
+<header>Anime Tagalog</header>
 
-<div id="channelSections"></div>
+<main>
+  <div class="series-grid" id="seriesGrid">
+    <!-- Series cards will be inserted here -->
+  </div>
+</main>
 
-<!-- Episode selector -->
-<div id="episodeContainer">
-  <div id="episodeList"></div>
-  <button class="closeBtn" onclick="closeEpisodes()">✕</button>
-</div>
+<footer>&copy; 2026 Anime Tagalog. All rights reserved.</footer>
 
-<!-- Video player -->
-<div id="videoContainer">
-  <video id="videoPlayer" controls autoplay playsinline></video>
-  <iframe id="ytFrame" allow="autoplay" allowfullscreen></iframe>
-  <button class="closeBtn" onclick="closeVideo()">✕</button>
-</div>
+<script>
+  // ===== SERIES DATA =====
+  const seriesList = [
+    {
+      title: "Hunter X Hunter",
+      logo: "https://upload.wikimedia.org/wikipedia/en/6/65/Hunter_X_Hunter_logo.png",
+      episodes: 36,
+      baseUrl: "https://anitest-1.onrender.com/"
+    },
+    {
+      title: "Naruto",
+      logo: "https://upload.wikimedia.org/wikipedia/en/9/94/NarutoCoverTankobon1.jpg",
+      episodes: 220,
+      baseUrl: "https://yourserver.com/naruto/episode"
+    },
+    {
+      title: "One Piece",
+      logo: "https://upload.wikimedia.org/wikipedia/en/6/65/One_Piece_Logo.png",
+      episodes: 1050,
+      baseUrl: "https://yourserver.com/onepiece/episode"
+    }
+    // Add more series here
+  ];
 
-<script src="app.js"></script>
+  const grid = document.getElementById('seriesGrid');
+
+  seriesList.forEach(series => {
+    const card = document.createElement('div');
+    card.className = 'series-card';
+    card.innerHTML = `
+      <img src="${series.logo}" alt="${series.title}">
+      <h3>${series.title}</h3>
+    `;
+    card.addEventListener('click', () => {
+      // Open series emblem page with query parameters
+      window.location.href = `series.html?title=${encodeURIComponent(series.title)}&episodes=${series.episodes}&baseUrl=${encodeURIComponent(series.baseUrl)}`;
+    });
+    grid.appendChild(card);
+  });
+</script>
+
 </body>
 </html>
